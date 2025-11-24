@@ -26,4 +26,6 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - run: npm config set user 0
+    - run: npm config set unsafe-perm true
     - run: npm run start
