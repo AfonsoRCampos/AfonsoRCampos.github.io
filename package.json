@@ -1,0 +1,36 @@
+{
+  "name": "a3_interface",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@visx/visx": "^3.12.0",
+    "@xyflow/react": "^12.8.6",
+    "auto-text-size": "^0.2.3",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "next": "15.5.4",
+    "react": "^18.2.0",
+    "react-color": "^2.19.3",
+    "react-datepicker": "^8.8.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.5.0",
+    "react-quill": "^2.0.0",
+    "react-select": "^5.10.2",
+    "react-tooltip": "^5.30.0",
+    "react-use-measure": "^2.1.7",
+    "rsuite": "^5.83.3"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.5.4",
+    "tailwindcss": "^4"
+  }
+}
